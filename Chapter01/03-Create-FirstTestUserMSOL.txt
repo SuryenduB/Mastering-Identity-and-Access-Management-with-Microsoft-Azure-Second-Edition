@@ -1,5 +1,10 @@
 # Create First Test User
-New-MsolUser -UserPrincipalName "jochen.nickel@inovitcloudlabs.onmicrosoft.com" -DisplayName "Jochen Nickel" -FirstName "Jochen" -LastName "Nickel" -UsageLocation "CH" -LicenseAssignment "inovitlabs:ENTERPRISEPREMIUM","inovitcloudlabs:EMSPREMIUM"
+New-MsolUser -UserPrincipalName "jochen.nickel@suryendubbhattacharyyaoutlo.onmicrosoft.com" -DisplayName "Jochen Nickel" -FirstName "Jochen" -LastName "Nickel" -UsageLocation "CH" -LicenseAssignment "suryendubbhattacharyyaoutlo:EMSPREMIUM"
+
+
+#Password UserPrincipalName                                         DisplayName   isLicensed
+#-------- -----------------                                         -----------   ----------
+# Sur63928 jochen.nickel@suryendubbhattacharyyaoutlo.onmicrosoft.com Jochen Nickel True
 
 # Check the creation of your test user
-Get-MsolUser -UserPrincipalName jochen.nickel@inovitcloudlabs.onmicrosoft.com | fl
+Get-MsolUser -UserPrincipalName jochen.nickel@suryendubbhattacharyyaoutlo.onmicrosoft.com | fl
