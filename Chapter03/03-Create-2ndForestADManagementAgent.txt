@@ -1,1 +1,3 @@
-New-ADUser -Name "svcaadcadma" -SamAccountName svcaadcadma -UserPrincipalName svcaadcadma@azureid.ch -path "OU=Users,OU=AAD,OU=Managed Service Objects,DC=azureid,DC=ch" -AccountPassword (ConvertTo-SecureString "YOURPASSWORD" -AsPlainText -Force) -Enabled $True
+
+
+New-ADUser -Name "svcaadcadma" -SamAccountName svcaadcadma -UserPrincipalName svcaadcadma@bengalshines.tk -path "OU=Users,OU=AAD,OU=Managed Service Objects,DC=TestLab,DC=BengalShines,DC=Tk" -AccountPassword (ConvertTo-SecureString "Pass@word1" -AsPlainText -Force) -Enabled $True
