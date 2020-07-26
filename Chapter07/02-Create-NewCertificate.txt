@@ -1,1 +1,1 @@
-New-PACertificate '*.inovitdemos.ch','certauth.login.inovitdemos.ch' -AcceptTOS -Contact jochen.nickel@inovit.ch
+New-PACertificate '*.dundermifflin.tk','certauth.login.dundermifflin.tk' -AcceptTOS -Contact jochen.nickel@dundermifflin.tk
