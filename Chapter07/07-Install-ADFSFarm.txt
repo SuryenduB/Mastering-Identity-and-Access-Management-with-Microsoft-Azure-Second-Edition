@@ -2,6 +2,6 @@
 gci Cert:\LocalMachine\My\ | fl
 # Install the ADFS Farm with WID
 Install-WindowsFeature ADFS-Federation -IncludeManagementTools
-Install-AdfsFarm -CertificateThumbprint 66F1BF8CCD904DF74154A5D24769DE155E874257 -FederationServiceName login.inovitdemos.ch -GroupServiceAccountIdentifier inovitdemos\svcadfs$ -FederationServiceDisplayName "INOVITDEMOS Login"
+Install-AdfsFarm -CertificateThumbprint 9FBD036BB15670EC4595882B7B9B1571D31C08BA -FederationServiceName login.dundermifflin.tk -GroupServiceAccountIdentifier dundermifflin\svcadfs$ -FederationServiceDisplayName "DunderMifflin Login"
 # Server restart
 Restart-Computer
